@@ -8,8 +8,8 @@ function App() {
     <div className="App">
     <Router>
       <Routes>
-        <Route path="/" exact element = {<Auth/>}/>
-        <Route path="/expense-tracker" element={<ExpenseTracker/>}/>
+        <Route path="/expense-tracker" exact element = {<Auth/>}/>
+        <Route path="/expense-trackers-data" element={<ExpenseTracker/>}/>
         
       </Routes>
     </Router>
