@@ -37,7 +37,7 @@ export const ExpenseTracker = () => {
       try {
         await signOut(auth);
         localStorage.clear();
-        navigate("/");
+        navigate("/expense-tracker");
       } catch (err) {
         console.error(err);
       }
